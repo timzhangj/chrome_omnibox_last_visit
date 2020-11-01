@@ -1,0 +1,14 @@
+{
+  "name": "Omnibox Show Last Visit Time",
+  "description": "Type 'f' plus a url, show suggested sites and last visit time.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "version": "0.0",
+  "omnibox": { "keyword" : "f" },
+  "permissions": [
+      "history"
+  ],
+  "manifest_version": 2
+}
